@@ -1,0 +1,80 @@
+body {
+    background-color: #fff6db;
+    width: 90%;
+    margin: 10px auto;
+}
+header {
+    display: flex;
+}
+header #avatar {
+    width: 20%;
+    margin-right: 20px;
+}
+header #avatar img{
+    width: 100%;
+}
+header #title h1 {
+    color: #ef8762;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header #title h3 {
+    color: #686868;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section .iconw {
+    text-align: center;
+    margin-top:20px;
+}
+section .iconw img {
+    width: 40px;
+}
+section .wrap-content {
+    text-align: justify;
+}
+section .col-contact{
+    display: flex;
+}
+section .col-contact .col-contact-1 {
+    width: 33.3%;
+}
+section .col-contact .col-contact-1 img{
+    width: 20px;
+}
+section .content{
+    display: flex;
+}
+section .content .content-left{
+    flex:1;
+}
+section .content h2{
+    color: #ef8762;
+}
+section .content img{
+    width: 2%;
+}
+section .content p{
+    margin-top:40px;
+}
+section .content .content-left span{
+    margin-right:20px;
+}
+section .content .content-right{
+    flex:1;
+    position: relative;
+    margin-left:100px;
+}
+section .content .content-right:before{
+    content: "";
+    border-right: dashed 3px #ef8762; height: 350px;
+    position: absolute;
+    top:20px;
+    left: -50px; 
+}
+footer{
+    display: flex;
+    align-items: center;
+}
+footer .footer img{
+    width: 5%;
+}

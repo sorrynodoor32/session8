@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table2</title>
+    <style>
+        table{
+            border: 1px solid #bdc3c7;
+            width: 600px;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: #16a085;
+            color: white;
+            font-size: 18px; 
+            text-transform: uppercase;
+            box-shadow: 2px 2px 12px rgb(0,0,0,0.2), -1px -1px 12px rgb(0,0,0,0.2);
+        }
+        th,td{
+            padding: 20px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: salmon;
+        }
+        td:nth-child(even) {
+            background-color: slateblue;
+        }
+        tr{
+            border-bottom: 1px solid #ddd;
+            transition: all 0.2s ease-in-out;
+        }
+        tr:hover{
+            transform: scale(1.02);
+            background-color: #f5f5f5;
+            box-shadow: 2px 2px 12px rgb(0,0,0,0.2), -1px -1px 12px rgb(0,0,0,0.2);
+        }
+        @media only screen and (max-width: 768px){
+            table{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Marks</th>
+        </thead>
+        <tr>
+            <td>Join</td>
+            <td>22</td>
+            <td>New York</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>23</td>
+            <td>New York</td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Hoa</td>
+            <td>25</td>
+            <td>Da Nang</td>
+            <td>9.7</td>
+        </tr>
+        <tr>
+            <td>Join</td>
+            <td>22</td>
+            <td>New York</td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>23</td>
+            <td>New York</td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Hoa</td>
+            <td>25</td>
+            <td>Da Nang</td>
+            <td>9.7</td>
+        </tr>   
+    </table>
+</body>
+</html>
